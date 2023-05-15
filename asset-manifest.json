@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/diplomaPetShop/static/css/main.9c4b1a2e.css",
+    "main.js": "/diplomaPetShop/static/js/main.55657499.js",
+    "static/media/promo.gif": "/diplomaPetShop/static/media/promo.872003b8760cebc392f1.gif",
+    "static/media/preloader1.gif": "/diplomaPetShop/static/media/preloader1.42d82fa12124b89fec7c.gif",
+    "static/media/bgdog.jpg": "/diplomaPetShop/static/media/bgdog.48527afe066fdef5b94f.jpg",
+    "static/media/catDog.gif": "/diplomaPetShop/static/media/catDog.c632b6dd5cfb2b51148e.gif",
+    "static/media/dogs-playing-556304.jpg": "/diplomaPetShop/static/media/dogs-playing-556304.a885681cd20b819b514d.jpg",
+    "static/media/promo30.gif": "/diplomaPetShop/static/media/promo30.2f4b8d61f20c4963bfb0.gif",
+    "static/media/bgcat2.jpg": "/diplomaPetShop/static/media/bgcat2.8f23e0d0653dd2828120.jpg",
+    "static/media/bgcat.jpg": "/diplomaPetShop/static/media/bgcat.2b66bcd8146082351602.jpg",
+    "static/media/emptyBox.png": "/diplomaPetShop/static/media/emptyBox.cbc05b48902af363f8b6.png",
+    "static/media/animals.jpg": "/diplomaPetShop/static/media/animals.c34f99e2c5b3b207a054.jpg",
+    "static/media/logoDog.png": "/diplomaPetShop/static/media/logoDog.0f037f0fbf32e5dc4025.png",
+    "static/media/github.svg": "/diplomaPetShop/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
+    "static/media/instagram.svg": "/diplomaPetShop/static/media/instagram.c2056460bbbf6c051f72df6d7c2fa6dc.svg",
+    "static/media/telegram.svg": "/diplomaPetShop/static/media/telegram.c97dd783e978b8ffc625f28f7e7da552.svg",
+    "static/media/trash.svg": "/diplomaPetShop/static/media/trash.28f134481f7edf3f1c26fbb2f01840cb.svg",
+    "index.html": "/diplomaPetShop/index.html",
+    "static/media/heart.svg": "/diplomaPetShop/static/media/heart.45a7e3db0cfc42ee166d8df9885bd0c4.svg",
+    "static/media/heartСrack.svg": "/diplomaPetShop/static/media/heartСrack.70e0fe4a8948355a8ff56dd3003949e1.svg",
+    "static/media/sun.svg": "/diplomaPetShop/static/media/sun.c38082274af427ddca1f.svg",
+    "static/media/linkedin.svg": "/diplomaPetShop/static/media/linkedin.887ba25dd002b7c7844a48f8c4407750.svg",
+    "static/media/menu.svg": "/diplomaPetShop/static/media/menu.69707d7401c01382651c5c630dc731f2.svg",
+    "static/media/gmail.svg": "/diplomaPetShop/static/media/gmail.e097336f4e33827be942e2c35296dbca.svg",
+    "static/media/uk_flag.svg": "/diplomaPetShop/static/media/uk_flag.b900c9a502cdcc4b9112a49218ade551.svg",
+    "static/media/circleChevronUp.svg": "/diplomaPetShop/static/media/circleChevronUp.4543e869e5de2f3dd23087a40248f59f.svg",
+    "static/media/plus.svg": "/diplomaPetShop/static/media/plus.28864b29ad6d5de83a9a39f358f5f654.svg",
+    "static/media/caret.svg": "/diplomaPetShop/static/media/caret.b7d8e56d294a3c1e1abedf67296f71da.svg",
+    "static/media/getFetch.cjs": "/diplomaPetShop/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "static/media/moon.svg": "/diplomaPetShop/static/media/moon.f421097bbd482a21b513.svg",
+    "static/media/arrow.svg": "/diplomaPetShop/static/media/arrow.c096d4e04ac5bdd7fdcb0bca62de243d.svg",
+    "static/media/ua_flag.svg": "/diplomaPetShop/static/media/ua_flag.74c52d6e7326a5c0cedf309a7ee8fb02.svg",
+    "main.9c4b1a2e.css.map": "/diplomaPetShop/static/css/main.9c4b1a2e.css.map",
+    "main.55657499.js.map": "/diplomaPetShop/static/js/main.55657499.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c4b1a2e.css",
+    "static/js/main.55657499.js"
+  ]
+}
