@@ -41,7 +41,7 @@ let Header = () => {
         <header className={style.headerContainer}>
           <div className={style.headerLogo}>
             <img src={logo} alt="logo" />
-            {/* <h2>Pet Shop</h2> */}
+            <h2 style={{ fontSize: "20px" }}>КІТПЕС</h2>
           </div>
           <nav className={style.headerNavigation}>
             <ul>

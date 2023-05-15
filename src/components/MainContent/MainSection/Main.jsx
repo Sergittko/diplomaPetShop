@@ -30,7 +30,7 @@ let Main = ({ staffPics, newReleases }) => {
     if (currentBg === 4) {
       return setCurrentBg(0);
     }
-  }, 5000);
+  }, 7000);
   return (
     <main className={style.mainContainer}>
       <section className={style.sectionHeaeder}>
