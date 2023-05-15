@@ -792,7 +792,7 @@ let accessories = [
     imageURL:
       "https://petslike.net/media/cache/app_shop_product_small_thumbnail/5b/26/592a9c3d4f9627832feb37e269cf.jpeg",
     price: 123.16,
-    size: [0.2],
+    size: ["0.2"],
     trending: 1,
     year: 2023,
     model: "Миска для котів",

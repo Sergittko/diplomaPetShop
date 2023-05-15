@@ -13,38 +13,10 @@ let SneakersPage = ({ addToCart, staffPics }) => {
   let [selectedSize, setSize] = useState(null);
   let [isItemAdded, setItemAdded] = useState(false);
   let addToCartHandler = (state, size) => {
-    let data = { ...state, size, total: 1 };
+    let data = { ...state, size, total: 1, price: Math.ceil(+state?.price) };
     addToCart(data);
   };
-  let sizesArray = state.size;
-  // let sizesArray = [
-  //   "3.5",
-  //   "4",
-  //   "4.5",
-  //   "5",
-  //   "5.5",
-  //   "6",
-  //   "6.5",
-  //   "7",
-  //   "7.5",
-  //   "8",
-  //   "8.5",
-  //   "9",
-  //   "9.5",
-  //   "10",
-  //   "10.5",
-  //   "11",
-  //   "11.5",
-  //   "12",
-  //   "12.5",
-  //   "13",
-  //   "13.5",
-  //   "14",
-  //   "14.5",
-  //   "15",
-  //   "15.5",
-  // ];
-
+  let sizesArray = state.size.map(String);
   return (
     <div className={style.pageContainer}>
       <div className={style.sneakerContainer}>
@@ -69,7 +41,7 @@ let SneakersPage = ({ addToCart, staffPics }) => {
             }}
           >
             {sizesArray.map((size) => {
-              let isDisabled = !state?.size.includes(+size);
+              let isDisabled = false;
               return (
                 <label
                   key={size}

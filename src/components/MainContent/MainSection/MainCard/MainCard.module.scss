@@ -27,6 +27,10 @@
   .imageContainer {
     // max-height: 150px;
     margin: 0px 0px 30px;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: #fff;
+    border-radius: 5px;
     img {
       width: 100%;
       height: 100%;

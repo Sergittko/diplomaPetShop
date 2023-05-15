@@ -13,7 +13,7 @@ const getSneakers = (sneakersData) => ({
 
 export const getSneakersTh = () => async (dispatch) => {
   let data = await sneakersApi.getAllSneakers();
-  dispatch(getSneakers(data.data));
+  dispatch(getSneakers(data));
 };
 
 const sneakersReducer = (state = initialState, action) => {

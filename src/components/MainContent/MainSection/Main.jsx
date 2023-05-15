@@ -64,7 +64,7 @@ let Main = ({ staffPics, newReleases }) => {
             })}
         </div>
         <div className={style.categoryButton}>
-          <Link to="/sneakers">
+          <Link to="/korm">
             <DefaultButton
               innerText={t("mainSection.newReleases.button")}
               color="#000"
@@ -93,7 +93,7 @@ let Main = ({ staffPics, newReleases }) => {
             })}
         </div>
         <div className={style.categoryButton}>
-          <Link to="/sneakers">
+          <Link to="/korm">
             <DefaultButton
               innerText={t("mainSection.staffPicks.button")}
               color="#000"

@@ -21,7 +21,6 @@ let OrderCard = ({
   let [quantity, changeQuantity] = useState(total);
   let [deleteOrder, setDeleteOrder] = useState(false);
   const { t } = useTranslation();
-
   useEffect(() => {
     if (quantity !== total) {
       setQuantinyTh(id, {
@@ -41,9 +40,9 @@ let OrderCard = ({
         <img src={image} alt="sneakers" srcSet={srcSet} />
         <div className={style.text}>
           <h2>{name}</h2>
-          <p>
-            {t("cartSection.size")} {size} US
-          </p>
+          {/* <p> */}
+          {/* {t("cartSection.size")} {size} */}
+          {/* </p> */}
         </div>
       </div>
       <div className={style.techInfo}>

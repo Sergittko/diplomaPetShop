@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://63bd839d18bc301c026b31a9.mockapi.io/",
+  baseURL: "https://646295764dca1a661349d24e.mockapi.io/",
 });
 
 const mainInstance = axios.create({
@@ -10,7 +10,7 @@ const mainInstance = axios.create({
 
 export const sneakersApi = {
   getAllSneakers() {
-    return instance.get("sneakersData");
+    return instance.get("cart").then((resp) => []);
   },
 };
 
@@ -34,18 +34,18 @@ export const cartApi = {
 
 export const mainApi = {
   getStaffPics() {
-    return mainInstance.get("mainStaffPics");
+    return mainInstance.get("mainStaffPics").then((resp) => []);
   },
 };
 
 export const favoritesApi = {
   getFavorites() {
-    return mainInstance.get("favorites");
+    return instance.get("favorites");
   },
   addFavorite(data) {
-    return mainInstance.post("favorites", data);
+    return instance.post("favorites", data);
   },
   deleteFavorite(id) {
-    return mainInstance.delete("favorites/" + id);
+    return instance.delete("favorites/" + id);
   },
 };

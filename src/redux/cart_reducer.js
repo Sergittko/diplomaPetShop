@@ -7,7 +7,7 @@ const ADD_TO_FAVORITE = "cart_reducer/ADD_TO_FAVORITE";
 
 let initialState = {
   cart: null,
-  favorites: null,
+  favorites: [],
 };
 
 const getCart = (cartData) => ({

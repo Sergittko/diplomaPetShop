@@ -22,20 +22,26 @@
     color: inherit;
   }
   .imageContainer {
+    display: flex;
     max-height: 150px;
     margin: 0px 0px 30px;
     width: 100%;
     height: 100%;
     // background: #f6f6f6;
     border-radius: 5px;
-
-    img {
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
+    a {
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+      background: #fff;
       border-radius: 5px;
-      object-fit: contain;
-      max-height: 170px;
+      img {
+        width: 100%;
+        border-radius: 5px;
+        height: 100%;
+        cursor: pointer;
+        object-fit: contain;
+        max-height: 170px;
+      }
     }
   }
   .brand {

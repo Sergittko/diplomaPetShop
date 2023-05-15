@@ -16,7 +16,7 @@ let Action = () => {
     }, 5000);
   }, []);
   return (
-    <>
+    <div className={style.actionContier}>
       {promo ? (
         <div className={style.promo2}>
           <img className={style.promoGif} src={promogif} alt="Промо" />
@@ -43,7 +43,7 @@ let Action = () => {
       ) : (
         ""
       )}
-    </>
+    </div>
   );
 };
 
