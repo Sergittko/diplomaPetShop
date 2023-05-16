@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/diplomaPetShop/static/css/main.e01f7675.css",
-    "main.js": "/diplomaPetShop/static/js/main.f5286a92.js",
+    "main.css": "/diplomaPetShop/static/css/main.67fa6e27.css",
+    "main.js": "/diplomaPetShop/static/js/main.340e498c.js",
     "static/media/promo.gif": "/diplomaPetShop/static/media/promo.872003b8760cebc392f1.gif",
     "static/media/preloader1.gif": "/diplomaPetShop/static/media/preloader1.42d82fa12124b89fec7c.gif",
     "static/media/bgdog.jpg": "/diplomaPetShop/static/media/bgdog.48527afe066fdef5b94f.jpg",
@@ -32,11 +32,11 @@
     "static/media/moon.svg": "/diplomaPetShop/static/media/moon.f421097bbd482a21b513.svg",
     "static/media/arrow.svg": "/diplomaPetShop/static/media/arrow.c096d4e04ac5bdd7fdcb0bca62de243d.svg",
     "static/media/ua_flag.svg": "/diplomaPetShop/static/media/ua_flag.74c52d6e7326a5c0cedf309a7ee8fb02.svg",
-    "main.e01f7675.css.map": "/diplomaPetShop/static/css/main.e01f7675.css.map",
-    "main.f5286a92.js.map": "/diplomaPetShop/static/js/main.f5286a92.js.map"
+    "main.67fa6e27.css.map": "/diplomaPetShop/static/css/main.67fa6e27.css.map",
+    "main.340e498c.js.map": "/diplomaPetShop/static/js/main.340e498c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e01f7675.css",
-    "static/js/main.f5286a92.js"
+    "static/css/main.67fa6e27.css",
+    "static/js/main.340e498c.js"
   ]
 }
