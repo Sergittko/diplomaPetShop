@@ -8,7 +8,7 @@ import style from "./FooterContacts.module.scss";
 let FooterContacts = () => {
   return (
     <div className={style.footerContacts}>
-      <p>Наші контакти</p>
+      {/* <p>Наші контакти</p> */}
       <ul>
         <li>
           {/* <a href="" title="LinkedIn" target="_blank" rel="noreferrer"> */}

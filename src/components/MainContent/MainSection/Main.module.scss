@@ -1,7 +1,7 @@
 .mainContainer {
   padding: 0 24px;
   .sectionHeaeder {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     margin: -70px 0 0 0;
     .imageBackground {
@@ -10,13 +10,13 @@
       inset: 0px;
       top: -70px;
       left: 0;
-      height: 100vh;
+      height: 80vh;
       z-index: -1;
-      filter: brightness(0.8);
+      filter: brightness(0.6);
 
       img {
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         object-fit: cover;
       }
     }
@@ -28,7 +28,7 @@
       display: flex;
       align-items: center;
       max-width: 940px;
-      height: 100vh;
+      height: 80vh;
       padding: 0 24px;
       margin: 0px auto 0px 30px;
       text-align: left;
@@ -47,9 +47,25 @@
           font-weight: 500;
           color: rgb(255, 255, 255);
           cursor: pointer;
-          margin-top: 20 px;
+          margin: 20px 0;
           text-decoration: underline;
           text-transform: capitalize;
+        }
+        p {
+          color: rgb(245, 245, 245);
+          margin: 10px 0;
+          font-size: 16px;
+          display: flex;
+          background: rgba(0, 0, 0, 0.5);
+          padding: 5px 10px;
+          border-radius: 5px;
+          &::before {
+            content: "•";
+            // font-size: 16px;
+            display: block;
+            // transform: scale(1.4);
+            padding: 0 3px 0 0;
+          }
         }
       }
     }

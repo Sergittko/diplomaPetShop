@@ -11,9 +11,9 @@ let Footer = () => {
           <h2>КІТПЕС</h2>
         </div>
         <div className={style.footerInformation}>
-          <div className={style.skills}>
-            {/* <h4>My stack:</h4> */}
-            <ul>
+          {/* <div className={style.skills}> */}
+          {/* <h4>My stack:</h4> */}
+          {/* <ul>
               <li>
                 Вибір експертів у світі тварин: наші клієнти підтверджують
                 найвищу якість наших товарів!
@@ -35,8 +35,8 @@ let Footer = () => {
                 переконані, що ми маємо найкращу якість товарів для домашніх
                 улюбленців!
               </li>
-            </ul>
-          </div>
+            </ul> */}
+          {/* </div> */}
 
           {/* <div className={style.projects}>
             <h4>My projects on GitHub Pages:</h4>
@@ -80,6 +80,9 @@ let Footer = () => {
           <FooterContacts />
         </div>
       </div>
+      <p className={style.slogan}>
+        Дружній зоомагазин, де турбота перетворюється на щастя ваших тваринок!
+      </p>
       <small>&copy; Copyright 2023, КІТПЕС</small>
     </footer>
   );
