@@ -5,46 +5,29 @@ import classNames from "classnames";
 
 let ModelFilter = ({ setFilterData, clearFilters, goods }) => {
   let newGoods = {};
+  let models = {};
   goods.forEach((item) => {
     newGoods[item.model] = false;
+    models[item.model] = `${item.model}`;
   });
   const { t } = useTranslation();
   let [filterMode, changeFilterMode] = useState(false);
   let [filter, changeFilter] = useState(newGoods);
-  // let [filter, changeFilter] = useState({
-  //   "Air Force 1": false,
-  //   "Air Jordan 1": false,
-  //   "Air Max 90": false,
-  //   Blazer: false,
-  //   "Chuck 70": false,
-  //   "Chuck Taylor All Star": false,
-  //   Dunk: false,
-  //   "NMD Runner": false,
-  //   Superstar: false,
-  //   UltraBoost: false,
-  // });
 
   useEffect(() => {
-    clearFilters &&
-      changeFilter((prev) => ({
-        ...prev,
-        "Air Force 1": false,
-        "Air Jordan 1": false,
-        "Air Max 90": false,
-        Blazer: false,
-        "Chuck 70": false,
-        "Chuck Taylor All Star": false,
-        Dunk: false,
-        "NMD Runner": false,
-        Superstar: false,
-        UltraBoost: false,
-      }));
+    changeFilter((prev) => ({
+      ...prev,
+    }));
+  }, [goods]);
+
+  useEffect(() => {
+    clearFilters && changeFilter(newGoods);
   }, [clearFilters]);
 
   useEffect(() => {
     let checkFilter = [];
     Object.keys(filter).forEach(
-      (item) => !!filter[item] && checkFilter.push(item)
+      (item) => !!filter[item] && checkFilter.push(models[item])
     );
     setFilterData((filters) => {
       return { ...filters, model: checkFilter };
@@ -69,22 +52,22 @@ let ModelFilter = ({ setFilterData, clearFilters, goods }) => {
         )}
       >
         <ul>
-          {Object.keys(filter).map((item) => {
+          {Object.keys(models).map((item) => {
             return (
               <li key={item}>
                 <input
-                  id={item}
+                  id={models[item]}
                   type="checkbox"
-                  name={item}
+                  name={models[item]}
                   checked={filter[item]}
-                  onChange={() =>
+                  onChange={() => {
                     changeFilter((prev) => ({
                       ...prev,
                       [item]: !filter[item],
-                    }))
-                  }
+                    }));
+                  }}
                 />
-                <label htmlFor={item}>{item}</label>
+                <label htmlFor={models[item]}>{models[item]}</label>
               </li>
             );
           })}

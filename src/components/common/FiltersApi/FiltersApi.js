@@ -33,7 +33,7 @@ export const filtersApi = {
 
     [...sneakersData].forEach((item) => {
       model.forEach((model) => {
-        if (item.model?.toLowerCase() === model.toLowerCase()) {
+        if (item?.model?.toLowerCase() === model?.toLowerCase()) {
           newData.push(item);
         }
       });

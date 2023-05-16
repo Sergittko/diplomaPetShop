@@ -13,22 +13,9 @@ let BrandFilter = ({ setFilterData, clearFilters, goods }) => {
   const { t } = useTranslation();
   let [filterMode, changeFilterMode] = useState(false);
   let [filter, changeFilter] = useState(newGoods);
-  // let [filter, changeFilter] = useState({
-  //   nike: false,
-  //   adidas: false,
-  //   airJordan: false,
-  //   bape: false,
-  // });
 
   useEffect(() => {
-    clearFilters &&
-      changeFilter((prev) => ({
-        ...prev,
-        nike: false,
-        adidas: false,
-        airJordan: false,
-        bape: false,
-      }));
+    clearFilters && changeFilter(newGoods);
   }, [clearFilters]);
 
   useEffect(() => {
