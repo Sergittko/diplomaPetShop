@@ -14,11 +14,14 @@ import PlaceOrder from "./components/MainContent/CartSection/PlaceOrder/PlaceOrd
 import { useEffect } from "react";
 import { initializeApp } from "./redux/app_reducer";
 import Action from "./components/Action/Action";
+import PetPropose from "./components/PetPropose/PetPropose";
+import { useTranslation } from "react-i18next";
 
 let App = ({ initializeApp, isInitialized }) => {
   useEffect(() => {
     initializeApp();
   }, []);
+  const { t } = useTranslation();
 
   return isInitialized ? (
     <div className={style.appWrapper}>
@@ -31,15 +34,15 @@ let App = ({ initializeApp, isInitialized }) => {
             <Route path="/sneakers" element={<Sneakers />} />
             <Route
               path="/korm"
-              element={<Sneakers korm={korm} title="Корм" />}
+              element={<Sneakers korm={korm} title={t("food")} />}
             />
             <Route
               path="/accessories"
-              element={<Sneakers korm={accessories} title="Аксесуари" />}
+              element={<Sneakers korm={accessories} title={t("accessories")} />}
             />
             <Route
               path="/medicine"
-              element={<Sneakers korm={medicine} title="Ліки" />}
+              element={<Sneakers korm={medicine} title={t("medicine")} />}
             />
             <Route path="/sneakers/:id" element={<SneakerPageContainer />} />
             <Route path="/korm/:id" element={<SneakerPageContainer />} />

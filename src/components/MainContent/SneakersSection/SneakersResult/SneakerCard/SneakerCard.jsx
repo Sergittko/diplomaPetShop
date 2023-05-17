@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { isMobile } from "react-device-detect";
 import ContentLoader from "react-content-loader";
+import { useTranslation } from "react-i18next";
 
 let SneakerCard = ({
   image,
@@ -21,6 +22,7 @@ let SneakerCard = ({
 }) => {
   let [addMode, changeMode] = useState(inFavorites);
   let [isItemAdded, toggleAdding] = useState(inFavorites);
+  const { t } = useTranslation();
 
   let handleAddingToFavorite = () => {
     if (isItemAdded) {
@@ -81,7 +83,9 @@ let SneakerCard = ({
             >
               <h4 className={style.name}>{name}</h4>
             </Link>
-            <span className={style.price}>{price} грн</span>
+            <span className={style.price}>
+              {price} {t("uah")}
+            </span>
           </div>
           <div className={style.addToCart}>
             {isMobile || addMode ? (

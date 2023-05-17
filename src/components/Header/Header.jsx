@@ -72,7 +72,7 @@ let Header = () => {
                   }
                   to="/korm"
                 >
-                  {"Корм"}
+                  {t("menu.food")}
                 </NavLink>
               </li>
               <li>
@@ -82,7 +82,7 @@ let Header = () => {
                   }
                   to="/accessories"
                 >
-                  {"Аксесуари"}
+                  {t("menu.accessories")}
                 </NavLink>
               </li>
               <li>
@@ -92,7 +92,7 @@ let Header = () => {
                   }
                   to="/medicine"
                 >
-                  {"Ліки"}
+                  {t("menu.medicine")}
                 </NavLink>
               </li>
               <li>

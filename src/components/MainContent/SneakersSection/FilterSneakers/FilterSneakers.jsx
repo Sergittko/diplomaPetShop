@@ -30,7 +30,7 @@ let FilterSneakers = ({ setFilterData, goods }) => {
           >
             {t("sneakersSection.filterSneakers.filterTitle")}
           </h3>
-          <button onClick={() => setClearFilters(true)}>Очистити пошук</button>
+          <button onClick={() => setClearFilters(true)}>{t("clear")}</button>
         </div>
         <div
           className={

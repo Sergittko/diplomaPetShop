@@ -1,8 +1,10 @@
 import logo from "../../img/logoDog.png";
 import style from "./Footer.module.scss";
 import FooterContacts from "./FooterContacts/FooterContacts";
+import { useTranslation } from "react-i18next";
 
 let Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className={style.footerContainer}>
       <div className={style.footerContent}>
@@ -80,9 +82,7 @@ let Footer = () => {
           <FooterContacts />
         </div>
       </div>
-      <p className={style.slogan}>
-        Дружній зоомагазин, де турбота перетворюється на щастя ваших тваринок!
-      </p>
+      <p className={style.slogan}>{t("footer")}</p>
       <small>&copy; Copyright 2023, КІТПЕС</small>
     </footer>
   );

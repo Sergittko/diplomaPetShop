@@ -20,7 +20,7 @@ let Sneakers = ({ korm, title }) => {
         {/* <h1>{t("sneakersSection.headerTitle")}</h1> */}
         <h1>{title}</h1>
         {/* <p>{t("sneakersSection.headerSubTitle")}</p> */}
-        <p>КІТПЕС - ТОВАРИ ДЛЯ ДРУЗІВ НАШИХ МЕНШИХ</p>
+        <p>{t("slogan")}</p>
       </header>
       <div className={style.sneakersSection}>
         <FilterSneakers setFilterData={setFilterData} goods={korm} />

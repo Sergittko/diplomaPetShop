@@ -153,7 +153,7 @@ let SneakersResult = (props) => {
                 alt="arrow"
                 style={{ transform: "rotate(90deg)" }}
               />
-              Попередня сторінка
+              {t("prevp")}
             </button>
           </ScrollLink>
           <span>
@@ -173,7 +173,7 @@ let SneakersResult = (props) => {
                   : currentPage;
               }}
             >
-              Наступна сторінка
+              {t("nexrp")}
               <img
                 src={arrow}
                 alt="arrow"

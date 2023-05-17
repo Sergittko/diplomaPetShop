@@ -27,9 +27,11 @@ let SneakersPage = ({ addToCart, staffPics }) => {
           <h2>{state.brand}</h2>
           <h1>{state.name}</h1>
           <div className={style.price}>
-            <span>{state.price} грн</span>
+            <span>
+              {state.price} {t("uah")}
+            </span>
           </div>
-          <span className={style.size}>Варіант:</span>
+          <span className={style.size}>{t("variant")}:</span>
 
           <div
             className={style.sizePicker}
@@ -80,7 +82,7 @@ let SneakersPage = ({ addToCart, staffPics }) => {
                     setSize(null);
                 }}
               >
-                {t("sneakerPage.buy")} {state.price} грн
+                {t("sneakerPage.buy")} {state.price} {t("uah")}
               </button>
             )}
             {isItemAdded && (
