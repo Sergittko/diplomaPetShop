@@ -7,7 +7,7 @@ let Preloader = () => {
     <div className={style.preloaderContainer}>
       <img src={preloader2} alt="preloader" />
       <div className={style.textContainer}>
-        {/* <h1>Sneakers Shop</h1> */}
+        {/* <h1>КІТПЕС</h1> */}
         <h1>Loading</h1>
         <div className={style.dot1}></div>
         <div className={style.dot2}></div>

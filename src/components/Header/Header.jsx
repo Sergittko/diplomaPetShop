@@ -117,7 +117,7 @@ let Header = () => {
         <header className={style.headerContainer}>
           <div className={style.headerLogo}>
             <img src={logo} alt="logo" />
-            <h2>Sneakers Shop</h2>
+            <h2>КІТПЕС</h2>
           </div>
           <div
             className={style.menuButton}
@@ -142,7 +142,7 @@ let Header = () => {
             <div className={style.headerLogo}>
               <div className={style.logoBlock}>
                 <img src={logo} alt="logo" />
-                <h2>Sneakers Shop</h2>
+                <h2>КІТПЕС</h2>
               </div>
               <div
                 className={style.closeMenu}

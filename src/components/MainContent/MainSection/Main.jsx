@@ -45,7 +45,7 @@ let Main = ({ staffPics, newReleases }) => {
             <p>{t("p3")}</p>
             <p>{t("p4")}</p>
             <p>{t("p5")}</p>
-            <Link to="/sneakers">{t("mainSection.shopNow")}</Link>
+            <Link to="/korm">{t("mainSection.shopNow")}</Link>
           </div>
         </div>
       </section>

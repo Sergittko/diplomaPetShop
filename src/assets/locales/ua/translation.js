@@ -14,7 +14,7 @@ export const ua = {
   nexrp: "Наступна сторінка",
   prevp: "Попередня сторінка",
   uah: "грн",
-  variant: "Варіант",
+  variant: "Виберіть варіант",
 
   menu: {
     main: "Головна",
@@ -107,7 +107,7 @@ export const ua = {
   },
 
   sneakerPage: {
-    size: "Варіант",
+    size: "Виберіть варіант",
     buy: "Купити за",
     goToCart: "Перейти до кошику",
     addedToCart: "Товар доданий до кошика",
